@@ -1,0 +1,1 @@
+{"index.js":"function confirmEnding(str, target) {\n  // \"Never give up and good luck will find you.\"\n  // -- Falcor\n  if (str.slice(-target.length) === target) {\n    return true;\n  } else {\n    return false;\n  }\n}\n\nconfirmEnding(\"Bastian\", \"n\");"}
