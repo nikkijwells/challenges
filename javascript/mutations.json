@@ -1,0 +1,1 @@
+{"index.js":"function mutation(arr) {\n  const firstArr = arr[0].toLowerCase();\n  const secondArr = arr[1].toLowerCase();\n\n  for (var i = 0; i < secondArr.length; i++){\n    if (firstArr.indexOf(secondArr[i]) < 0) \n      return false;\n    }\n    return true;\n  }\n\n\n\n\n  \n  mutation([\"zyxwvutsrqponmlkjihgfedcba\", \"qrstu\"])\n"}
